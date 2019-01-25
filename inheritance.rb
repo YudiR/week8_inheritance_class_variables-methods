@@ -1,3 +1,17 @@
+class Person
+
+    
+    def initialize(f,l)
+        @first_name = f
+        @last_name = l 
+    end
+    
+    def hi 
+        puts "hi my name is #{@first_name}"
+    end
+
+end
+
 class Student < Person
 
     def initialize(f,l)
@@ -24,19 +38,7 @@ end
 
 
 
-class Person
 
-    
-    def initialize(f,l)
-        @first_name = f
-        @last_name = l 
-    end
-    
-    def hi 
-        puts "hi my name is #{@first_name}"
-    end
-
-end
 
 chris = Instructer.new("Chris", "King")
 christina = Student.new("Christina", "Queen")
